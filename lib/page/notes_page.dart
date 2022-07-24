@@ -42,7 +42,7 @@ class _NotesPageState extends State<NotesPage> {
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
           title: Text(
-            'Notes',
+            'บันทึก',
             style: TextStyle(fontSize: 24),
           ),
           actions: [Icon(Icons.search), SizedBox(width: 12)],

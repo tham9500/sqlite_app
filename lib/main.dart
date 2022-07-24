@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sqlite_app/page/notes_page.dart';
 
-
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SystemChrome.setPreferredOrientations([
@@ -22,6 +21,7 @@ class MyApp extends StatelessWidget {
         title: title,
         themeMode: ThemeMode.dark,
         theme: ThemeData(
+          fontFamily: 'Prompt',
           primaryColor: Colors.black,
           scaffoldBackgroundColor: Colors.blueGrey.shade900,
           appBarTheme: AppBarTheme(
